@@ -1,0 +1,40 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+	background:url(img/lap.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Lexend Peta', sans-serif;
+}
+
+h1 {
+	color: red;
+	font-weight: 700;
+}
+
+hr {
+	border-width: 2px;
+	background-color: maroon;
+	max-width: 4rem;
+}
+
+.buffer {
+	height: 11rem;
+}
+
+.btn {
+	text-transform: uppercase;
+	padding: 1rem 2rem;
+	border-radius: 300px;
+}
+
+.btn-primary {
+	background-color:maroon;
+	border-color: maroon
+}
+
+.btn-primary:hover {
+	background: orange;
+	border-color: orange;
+	border-width: 4px;
+}
